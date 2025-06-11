@@ -1,0 +1,39 @@
+Benchmarks complete for runs/detect/train/weights/last.pt on coco.yaml at imgsz=640 (3560.35s)
+Benchmarks legend:  - ✅ Success  - ❎ Export passed but validation failed  - ❌️ Export failed
+                   Format Status❔  Size (MB) metrics/mAP50-95(B) Inference time (ms/im)     FPS
+0                 PyTorch       ✅       21.5              0.4262                   7.87  127.07
+1             TorchScript       ✅       43.0              0.4224                   5.83  171.43
+2                    ONNX       ✅       42.8              0.4224                   9.38  106.62
+3                OpenVINO       ❌        0.0                   -                      -       -
+4                TensorRT       ❌        0.0                   -                      -       -
+5                  CoreML       ❌        0.0                   -                      -       -
+6   TensorFlow SavedModel       ❌        0.0                   -                      -       -
+7     TensorFlow GraphDef       ❌        0.0                   -                      -       -
+8         TensorFlow Lite       ❌        0.0                   -                      -       -
+9     TensorFlow Edge TPU       ❌        0.0                   -                      -       -
+10          TensorFlow.js       ❌        0.0                   -                      -       -
+11           PaddlePaddle       ❌        0.0                   -                      -       -
+12                    MNN       ✅       42.7              0.4224                  68.24   14.65
+13                   NCNN       ✅       42.7              0.4224                  64.67   15.46
+14                    IMX       ❌        0.0                   -                      -       -
+15                   RKNN       ❌        0.0                   -                      -       -
+
+Benchmarks complete for runs/detect/train/weights/best.pt on coco.yaml at imgsz=640 (3431.94s)
+Benchmarks legend:  - ✅ Success  - ❎ Export passed but validation failed  - ❌️ Export failed
+                   Format Status❔  Size (MB) metrics/mAP50-95(B) Inference time (ms/im)     FPS
+0                 PyTorch       ✅       21.5              0.4548                    7.3  137.03
+1             TorchScript       ✅       43.0              0.4514                   5.81  172.16
+2                    ONNX       ✅       42.8              0.4514                   8.52  117.36
+3                OpenVINO       ❌        0.0                   -                      -       -
+4                TensorRT       ❌        0.0                   -                      -       -
+5                  CoreML       ❌        0.0                   -                      -       -
+6   TensorFlow SavedModel       ❌        0.0                   -                      -       -
+7     TensorFlow GraphDef       ❌        0.0                   -                      -       -
+8         TensorFlow Lite       ❌        0.0                   -                      -       -
+9     TensorFlow Edge TPU       ❌        0.0                   -                      -       -
+10          TensorFlow.js       ❌        0.0                   -                      -       -
+11           PaddlePaddle       ❌        0.0                   -                      -       -
+12                    MNN       ✅       42.7              0.4513                  60.92   16.42
+13                   NCNN       ✅       42.7              0.4514                  67.23   14.88
+14                    IMX       ❌        0.0                   -                      -       -
+15                   RKNN       ❌        0.0                   -                      -       -
